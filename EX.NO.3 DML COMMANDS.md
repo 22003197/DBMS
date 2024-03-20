@@ -28,17 +28,23 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 ### Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 
 ### QUERY:
-
-
+```
+UPDATE manager
+SET salary = salary * 1.1;
+```
 ### OUTPUT:
+![Screenshot 2024-03-20 113156](https://github.com/DrUmaRaniV/DBMS/assets/124332243/3bed0dd0-91e9-494f-be82-9f8b22e97a09)
 
 ### Q2) Delete the records from manager table where the salary less than 2750.
 
 
 ### QUERY:
-
-
+```
+DELETE FROM manager
+WHERE salary < 2750;
+```
 ### OUTPUT:
+![Screenshot 2024-03-20 113351](https://github.com/DrUmaRaniV/DBMS/assets/124332243/44bfcbdc-6f4a-4ee3-a1dd-9691fba2fd72)
 
 ### Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in emp table is the monthly salary)
 
