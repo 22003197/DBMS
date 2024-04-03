@@ -71,7 +71,6 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ### QUERY:
 
-
 ### OUTPUT:
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
